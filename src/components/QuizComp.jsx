@@ -92,7 +92,7 @@ function QuizComp() {
                   showResults={showResults}
                   userScore={userScore}
                 />
-                <div className="flex flex-col justify-center items-start w-96 mb-4">
+                <div className="flex flex-col justify-center items-start w-full mb-4 px-8">
                   <div className="flex flex-row justify-between items-center w-full">
                     <h2 className="text-lg font-semibold mb-2">
                       Change Category
@@ -111,8 +111,8 @@ function QuizComp() {
                     ))}
                   </select>
                 </div>
-                <div className="flex flex-col justify-start mb-4">
-                  <div className="flex flex-row justify-between items-center">
+                <div className="flex flex-col justify-start mb-4 w-full px-8">
+                  <div className="flex flex-row justify-between items-center w-full">
                     <h2 className="text-lg font-semibold mb-2">
                       Change Difficulty
                     </h2>
@@ -121,7 +121,7 @@ function QuizComp() {
                   <select
                     value={selectedDifficulty}
                     onChange={(e) => setSelectedDifficulty(e.target.value)}
-                    className="w-96 border border-black p-2 rounded-md"
+                    className="w-full border border-black p-2 rounded-md"
                   >
                     <option value="easy">Easy</option>
                     <option value="medium">Medium</option>
