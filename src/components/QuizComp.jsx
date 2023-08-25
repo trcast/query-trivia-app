@@ -147,11 +147,11 @@ function QuizComp() {
             )
           ) : (
             // Start Screen
-            <div className="flex flex-col justify-start items-center w-[26rem] md:w-[38rem] mt-56 bg-white border border-black shadow-box pb-4">
+            <div className="flex flex-col justify-start items-center w-full md:w-[38rem] mt-56 bg-white border border-black shadow-box pb-4">
               <div className="w-full h-8 border-b border-black mb-8 flex flex-row justify-end items-center px-4">
                 <BsXSquare />
               </div>
-              <div className="flex flex-col justify-center items-start w-96 mb-4">
+              <div className="flex flex-col justify-center items-start w-full px-8 mb-4">
                 <div className="flex flex-row justify-between items-center w-full">
                   <h2 className="text-lg font-semibold mb-2">
                     Select Category
@@ -170,7 +170,7 @@ function QuizComp() {
                   ))}
                 </select>
               </div>
-              <div className="flex flex-col justify-center items-start w-96 mb-4">
+              <div className="flex flex-col justify-center items-start w-full mb-4 px-8">
                 <div className="flex flex-row justify-between items-center w-full">
                   <h2 className="text-lg font-semibold mb-2">
                     Select Difficulty
