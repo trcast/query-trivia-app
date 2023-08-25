@@ -42,8 +42,8 @@ const QuestionList = ({ quizDataList, showResults }) => {
         );
       })}
       {showResults && (
-        <div className="flex flex-col justify-center items-center mt-8">
-          <div className="w-96 flex flex-row justify-between items-center border-b border-black pb-4 mb-4">
+        <div className="flex flex-col justify-center items-center mt-8 px-8">
+          <div className="w-full flex flex-row justify-between items-center border-b border-black pb-4 mb-4">
             <p className="text-lg font-semibold">Your Score:</p>
             <div className="flex justify-center items-center px-4 py-1 border border-black rounded-full">
               {correctAnswers} / {quizDataList.length}
