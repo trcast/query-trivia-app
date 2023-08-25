@@ -1,0 +1,55 @@
+.option {
+  background-color: white;
+  padding: 6px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.option:hover {
+  background-color: black;
+  color: white;
+}
+
+.option.selected-correct:hover {
+  color: black;
+}
+
+.option.selected-incorrect:hover {
+  color: black;
+}
+
+.option.incorrect:hover {
+  color: black;
+}
+
+.option.correct:hover {
+  color: black;
+}
+
+.option.selected {
+  background-color: black;
+  color: white;
+}
+
+.option.selected-correct {
+  background-color: #bbf7d0;
+}
+
+.option.selected-incorrect {
+  background-color: #fecaca;
+}
+
+.option.correct {
+  background-color: #bbf7d0;
+}
+
+.option.incorrect {
+  background-color: #fecaca;
+}
