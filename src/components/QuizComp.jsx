@@ -147,7 +147,7 @@ function QuizComp() {
             )
           ) : (
             // Start Screen
-            <div className="flex flex-col justify-start items-center w-[28rem] md:w-[38rem] mt-56 bg-white border border-black shadow-box pb-4">
+            <div className="flex flex-col justify-start items-center w-[26rem] md:w-[38rem] mt-56 bg-white border border-black shadow-box pb-4">
               <div className="w-full h-8 border-b border-black mb-8 flex flex-row justify-end items-center px-4">
                 <BsXSquare />
               </div>
